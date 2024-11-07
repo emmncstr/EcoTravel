@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="witdh=device-with, initial-scale=1.0">
+        <title>EcoTravel</title>
+        <link rel="icon" type="images/jpg" href="imgs/Icon.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <!--Header Section-->
+    <header>
+        <div class="container">
+            <img src="imgs/Icon.jpg" alt="Logo">
+        </div>
+    <!--Slogan-->
+        <div class="slogan">
+            <h1>"Discover the World, Sustainably."</h1>
+            <p id="welcomeMessage"></p>
+        </div>
+
+
+
+        <!--Navigation Bar-->
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Destinations</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Feautured Image-->
+    <h2 id="exploreH2">Explore Eco-Friendly Travel Packages</h2>
+    <section id="container-images">
+        <div class="featured-imgs">
+            <img src="imgs/Place.jpg" alt="Moraine Lake" id="imgs1">
+            <img src="imgs/Palawan.jpg" alt="Palawan City" id="imgs2">
+            <img src="imgs/Paris.jpg" alt="Paris, France" id="imgs3">
+            <img src="imgs/Switzerland.jpeg" alt="Switzerland" id="imgs4">
+            <img src="imgs/Maldives.jpg" alt="Maldives" id="imgs5">
+        </div>
+    </section>
+
+
+
+    <!--Table of Travel Package-->
+    <section class="travel-packages">
+        <h2 id="h2">Our Travel Packages</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>Duration</th>
+                    <th>Price</th>
+                    <th>Sustainability Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Moraine Lake</td>
+                    <td>3 Days</td>
+                    <td>$1,200</td>
+                    <td>5 Stars</td>
+                </tr>
+                <tr>
+                    <td>Palawan</td>
+                    <td>3 Days</td>
+                    <td>$1,500</td>
+                    <td>5 Stars</td>
+                </tr>
+                <tr>
+                    <td>Paris, France</td>
+                    <td>4 Days</td>
+                    <td>$1,200</td>
+                    <td>5 Stars</td>
+                </tr>
+                <tr>
+                    <td>Switzerland</td>
+                    <td>7 Days</td>
+                    <td>$2,500</td>
+                    <td>5 Stars</td>
+                </tr>
+                <tr>
+                    <td>Maldives</td>
+                    <td>5 Days</td>
+                    <td>$3,000</td>
+                    <td>5 Stars</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="btnContainer">
+            <button id="highlightBtn">Highlight Packages</button>
+        </div>
+    </section>
+
+
+    <!--Embeded Map-->
+    <div class="maps">
+    <!--Map of Moraine Lake-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9973.69146383132!2d-116.18600491406553!3d51.32174156897237!2m3!1f0!2f0
+    !3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53775bcbf58ee517%3A0x42c8a7a2c3c05c95!2sMoraine%20Lake!5e0!3m2!1sen!2sca!4v1729354661519!5m2!1sen!2sca" 
+    width="360" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!--Map of Palawan City-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8048388.005639255!2d111.66484780481393!3d9.944194448544085!2m3!1f0!2f0!3f0!3
+        m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b5bce750b99e45%3A0xdfc65f6c0c8d3beb!2sPalawan%2C%20Philippines!5e0!3m2!1sen!2sca!4v1729364726370!5m2!1sen!2sca" 
+        width="360" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <!--Map of Paris, France-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.23118516707!2d2.182228431761225!3d48.85873741021451!2m3!1f0!2f0!3f0!3m2!1i
+        1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2sca!4v1729365060400!5m2!1sen!2sca" 
+        width="360" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!--Map of Switzerland-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1398698.6310373235!2d5.726142519238668!3d46.78788976923009!2m3!1f0!2f0!3f0!3m2!1i1024
+    !2i768!4f13.1!3m3!1m2!1s0x478c64ef6f596d61%3A0x5c56b5110fcb7b15!2sSwitzerland!5e0!3m2!1sen!2sca!4v1729365132272!5m2!1sen!2sca"
+    width="370" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!--Map of Maldives-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8159199.921096217!2d67.94091904996493!3d3.09882189467529!2m3!1f0!2f0!3f0!3m2!1i1024
+    !2i768!4f13.1!3m3!1m2!1s0x24b599bfaafb7bbd%3A0x414509e181956289!2sMaldives!5e0!3m2!1sen!2sca!4v1729366624738!5m2!1sen!2sca" 
+    width="370" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+    <!--Footer-->
+    <footer style="background-color: aliceblue;">
+        <hr>
+        Contact us: +(1)401-807-0103<br>
+        <a href="mailto:Ecotravel@gmail.com">Ecotravel@gmail.com</a>
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+        <a href="">Instagram</a><br>
+        &copy; 2024 EcoTravel. Copyright Reserved
+
+
+        <!--JavaScript-->
+        <script src="js/script.js"></script>
+    </body>
+</html>
